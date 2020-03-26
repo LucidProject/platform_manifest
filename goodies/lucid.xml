@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="lucid"
+          fetch="https://github.com/Lucid-Beta/"
+          revision="queen-cake" />
+
+  <!-- Lucid Repos -->
+
+  <!-- General -->
+  <project path="build/make" name="platform_build" remote="lucid">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="lucid">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="platform_bionic" remote="lucid"/>
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="lucid"/>
+  <project path="build/blueprint" name="platform_build_blueprint" remote="lucid"/>
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="lucid"/>
+  <project path="frameworks/base" name="platform_frameworks_base" remote="lucid"/>
+  <project path="frameworks/native" name="platform_frameworks_native" remote="lucid"/>
+
+  <!-- External -->
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="lucid"/>
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="lucid"/>
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="lucid"/>
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="lucid"/>
+
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="lucid"/>
+  <project path="system/vold" name="platform_system_vold" remote="lucid"/>
+
+  <!-- Package -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="lucid" />
+
+  <!-- Vendor -->
+  <project path="vendor/lucid" name="platform_vendor_lucid" remote="lucid" />
+
+</manifest>
