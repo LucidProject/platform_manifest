@@ -33,23 +33,53 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="lucid"/>
   <project path="frameworks/base" name="platform_frameworks_base" remote="lucid"/>
   <project path="frameworks/native" name="platform_frameworks_native" remote="lucid"/>
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="lucid" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="lucid" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="lucid" />
 
   <!-- External -->
+  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="lucid" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="lucid"/>
+
+  <!-- Device -->
+  <project path="device/lucid/sepolicy" name="platform_device_lucid_sepolicy" remote="lucid" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="lucid" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="lucid"/>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="lucid"/>
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="lucid"/>
+  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom_audio" revision="queen-cake-8996" remote="lucid" />
+  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" revision="queen-cake-8996" remote="lucid" />
+  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom_media" revision="queen-cake-8996" remote="lucid" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" revision="queen-cake-8998" remote="lucid" />
+  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" revision="queen-cake-8998" remote="lucid" />
+  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" revision="queen-cake-8998" remote="lucid" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" revision="queen-cake-845" remote="lucid" />
+  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" revision="queen-cake-845" remote="lucid" />
+  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" revision="queen-cake-845" remote="lucid" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="queen-cake-8150" remote="lucid" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="queen-cake-8150" remote="lucid" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="queen-cake-8150" remote="lucid" />
 
   <!-- System -->
+  <project path="system/bt" name="platform_system_bt" remote="lucid"/>
   <project path="system/core" name="platform_system_core" remote="lucid"/>
   <project path="system/vold" name="platform_system_vold" remote="lucid"/>
 
   <!-- Package -->
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="lucid" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="lucid" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="lucid" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="lucid" />
 
   <!-- Vendor -->
   <project path="vendor/lucid" name="platform_vendor_lucid" remote="lucid" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="lucid" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="lucid" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="lucid" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="lucid" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="lucid" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power remote="lucid" />
 
 </manifest>
