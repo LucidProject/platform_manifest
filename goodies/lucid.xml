@@ -44,6 +44,7 @@
   <!-- Device -->
   <project path="device/lucid/sepolicy" name="platform_device_lucid_sepolicy" remote="lucid" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="lucid" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="lucid" revision="queen-cake-legacy-um" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="lucid"/>
