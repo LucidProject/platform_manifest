@@ -12,6 +12,7 @@
   <!-- Lucid Repos -->
 
   <!-- General -->
+  <project path="art" name="platform_art" remote="lucid" />
   <project path="build/make" name="platform_build" remote="lucid">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -28,6 +29,7 @@
   <project path="bionic" name="platform_bionic" remote="lucid"/>
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="lucid"/>
   <project path="build/blueprint" name="platform_build_blueprint" remote="lucid"/>
+  <project path="libcore" name="platform_libcore" remote="lucid" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="lucid"/>
@@ -38,6 +40,12 @@
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="lucid" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="lucid" />
+  <project path="external/jemalloc_new" name="platform_external_jemalloc-new" remote="lucid" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="lucid" />
+  <project path="external/skia" name="platform_external_skia" remote="lucid" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="lucid" />
+  <project path="external/zlib" name="platform_external_zlib" remote="lucid" />
   <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="lucid" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="lucid"/>
 
@@ -88,8 +96,10 @@
   <!-- Package -->
   <project path="packages/apps/LucidLauncher" name="platform_packages_apps_LucidLauncher" remote="lucid" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="lucid" />
+  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="lucid" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="lucid" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="lucid" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="lucid" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="lucid" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="lucid" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="lucid" />
@@ -103,6 +113,7 @@
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="lucid" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="lucid" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_sn100x_halimpl" remote="lucid" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="platform_vendor_nxp_opensource_sn100x_hidlimpl" remote="lucid" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="lucid" />
 
 </manifest>

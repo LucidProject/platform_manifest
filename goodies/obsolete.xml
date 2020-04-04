@@ -4,11 +4,13 @@
   <!-- Remove unused device repos -->
 
   <!-- General -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/libcore" />
 
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -101,6 +103,12 @@
   <remove-project name="platform/hardware/qcom/sm8150/vr" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/tinycompress" />
   
   <!-- Framework -->
@@ -119,8 +127,10 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller"/>
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
