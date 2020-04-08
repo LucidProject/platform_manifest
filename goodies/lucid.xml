@@ -9,6 +9,10 @@
           fetch="https://github.com/Lucid-Beta/"
           revision="queen-cake" />
 
+  <remote name="lucid-devices"
+          fetch="https://github.com/Lucid-Devices/"
+          revision="queen-cake" />
+
   <!-- Lucid Repos -->
 
   <!-- General -->
