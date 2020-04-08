@@ -24,7 +24,7 @@ Simplicity is the ultimate sophistication!
 
 	```bash
         mkdir Lucid && cd Lucid
-        repo init -u https://github.com/Lucid-Beta/platform_manifest -b queen-cake
+        repo init -u https://github.com/LucidProject/platform_manifest -b queen-cake
         repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 	```
 

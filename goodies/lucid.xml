@@ -6,7 +6,7 @@
           fetch="https://github.com/" />
 
   <remote name="lucid"
-          fetch="https://github.com/Lucid-Beta/"
+          fetch="https://github.com/LucidProject/"
           revision="queen-cake" />
 
   <!-- Lucid Repos -->
