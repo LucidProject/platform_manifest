@@ -92,6 +92,7 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" revision="queen-cake-8150" remote="lucid" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" revision="queen-cake-8150" remote="lucid" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" revision="queen-cake-8150" remote="lucid" />
+  <project path="hardware/samsung" name="platform_hardware_samsung" remote="lucid" />
 
   <!-- System -->
   <project path="system/bt" name="platform_system_bt" remote="lucid"/>
