@@ -109,6 +109,7 @@
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="lucid" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="lucid" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="lucid" />
+  <project path="packages/apps/LucidSetupWizard" name="platform_packages_apps_LucidSetupWizard" remote="lucid" />
 
   <!-- Vendor -->
   <project path="vendor/lucid" name="platform_vendor_lucid" remote="lucid" />
