@@ -12,6 +12,9 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
