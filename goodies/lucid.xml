@@ -100,6 +100,7 @@
   <project path="system/vold" name="platform_system_vold" remote="lucid"/>
 
   <!-- Package -->
+  <project path="packages/apps/LucidCovers" name="platform_packages_apps_LucidCovers" remote="lucid" />
   <project path="packages/apps/LucidLauncher" name="platform_packages_apps_LucidLauncher" remote="lucid" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="lucid" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="lucid" />
