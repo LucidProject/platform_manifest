@@ -100,6 +100,7 @@
   <project path="system/bt" name="platform_system_bt" remote="lucid"/>
   <project path="system/core" name="platform_system_core" remote="lucid"/>
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="lucid"/>
+  <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="lucid"/>
   <project path="system/vold" name="platform_system_vold" remote="lucid"/>
 
   <!-- Package -->
