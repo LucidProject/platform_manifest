@@ -49,6 +49,7 @@
   <project path="external/jemalloc_new" name="platform_external_jemalloc-new" remote="lucid" />
   <project path="external/libhevc" name="platform_external_libhevc" remote="lucid" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="lucid" />
+  <project path="external/libpng" name="platform_external_libpng" remote="lucid" />
   <project path="external/selinux" name="platform_external_selinux" remote="lucid" />
   <project path="external/skia" name="platform_external_skia" remote="lucid" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="lucid" />
