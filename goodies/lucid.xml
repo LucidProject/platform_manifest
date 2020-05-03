@@ -114,6 +114,9 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="lucid" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="lucid" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="lucid" />
+
   <!-- Vendor -->
   <project path="vendor/lucid" name="platform_vendor_lucid" remote="lucid" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="lucid" />
