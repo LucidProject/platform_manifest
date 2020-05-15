@@ -144,6 +144,7 @@
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/r8" />
 
 </manifest>
